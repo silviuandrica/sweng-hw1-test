@@ -7,6 +7,11 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Toast;
 
+/**
+ * Accepts user input
+ * @author slv
+ *
+ */
 public class MainActivity extends Activity {
 
     @Override
@@ -23,15 +28,10 @@ public class MainActivity extends Activity {
         return true;
     }
     
-    public void displayMessage(View view){
+    public void displayMessage(View view) {
     	Toast.makeText(this, "You clicked Display!", Toast.LENGTH_SHORT).show();
     	Intent displayActivityIntent = new Intent(this, ShowMessageActivity.class);
     	startActivity(displayActivityIntent);
-    	
-    	boolean sweng=true;
-
-    	boolean silviu=false;
-
     }
     
 }
