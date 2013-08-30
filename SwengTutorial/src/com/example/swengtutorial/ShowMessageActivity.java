@@ -12,7 +12,7 @@ public class ShowMessageActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_show_message);
 		Intent startingIntent = getIntent();
-		String userText = startingIntent.getStringExtra(MainActivity.class.getName());
+		//String userText = startingIntent.getStringExtra(MainActivity.class.getName());
 	}
 
 	@Override
