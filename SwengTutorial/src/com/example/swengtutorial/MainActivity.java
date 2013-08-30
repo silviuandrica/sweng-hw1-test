@@ -27,6 +27,8 @@ public class MainActivity extends Activity {
     	Toast.makeText(this, "You clicked Display!", Toast.LENGTH_SHORT).show();
     	Intent displayActivityIntent = new Intent(this, ShowMessageActivity.class);
     	startActivity(displayActivityIntent);
+    	
+    	boolean silviu=false;
     }
     
 }
