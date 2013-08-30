@@ -29,6 +29,9 @@ public class MainActivity extends Activity {
     	startActivity(displayActivityIntent);
     	
     	boolean sweng=true;
+
+    	boolean silviu=false;
+
     }
     
 }
